@@ -1,10 +1,13 @@
-# Title (replace with your title)
+# Regex Tutorial
 
-Introductory paragraph (replace this with your text)
+Regex is short for regular expression, it is a sequence of characters that defines a specific search pattern. We will use a a commonly used regex and break it down piece ny piece.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+In this tutorial we'll see how to use a regex to match an email address. We will be using the following regex and explain each component and what they do 
+``` 
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+```
 
 ## Table of Contents
 
